@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> Mappy
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/btgame-devel-de/2004-April/index.html" >
+   <LINK REL="made" HREF="mailto:btgame-devel-de%40lists.berlios.de?Subject=Re%3A%20Mappy&In-Reply-To=%3C20040416233108.7a67a376%40mars.chrizel.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000008.html">
+   <LINK REL="Next"  HREF="000007.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>Mappy</H1>
+    <B>Christian Zeller</B> 
+    <A HREF="mailto:btgame-devel-de%40lists.berlios.de?Subject=Re%3A%20Mappy&In-Reply-To=%3C20040416233108.7a67a376%40mars.chrizel.com%3E"
+       TITLE="Mappy">chrizel at gmx.net
+       </A><BR>
+    <I>Fri Apr 16 23:31:08 CEST 2004</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000008.html">Status
+</A></li>
+        <LI>Next message: <A HREF="000007.html">Mappy
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#6">[ date ]</a>
+              <a href="thread.html#6">[ thread ]</a>
+              <a href="subject.html#6">[ subject ]</a>
+              <a href="author.html#6">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Moin,
+
+Wir haben ja derzeit unsere eigene Map-Klasse mit ihrem eigenen File-Format.
+
+Als Alternative hab ich jetzt Mappy gefunden:
+<A HREF="http://www.geocities.com/SiliconValley/Vista/7336/robmpy.htm">http://www.geocities.com/SiliconValley/Vista/7336/robmpy.htm</A>
+
+Map-Editor mit Sourcecode. Nachteil: Windows.
+
+L&#228;uft aber mit Wine...
+
+Und daf&#252;r gibts dann auch schon fertige Routinen und ne Klasse um das Fileformat in eigene Spiele zu bringen:
+<A HREF="http://membres.lycos.fr/edorul/SDLMappye.htm">http://membres.lycos.fr/edorul/SDLMappye.htm</A>
+
+Das ist nicht Mappy, sondern das sind Routinen um das Mappy-Format zu laden und anzuzeigen!
+
+Ich weiss nur nicht ob die Routinen f&#252;r den DOS (Allegro) Client sind, oder ob das schon den Windows-Mappy-Client unterst&#252;tzt, es gibt n&#228;mlich zwei Mappy Versionen! Vielleicht sind die Dateiformate kompatibel, das w&#228;re nat&#252;rlich ganz toll.
+
+Also hier die C++ Klasse f&#252;r das Mappy-Format via SDL:
+<A HREF="http://membres.lycos.fr/edorul/SDLMappy-1.0.tar.gz">http://membres.lycos.fr/edorul/SDLMappy-1.0.tar.gz</A>
+
+Auf der Site gibts auch Mappy for Linux, aber diese Version basiert auf DOS Mappy, d.h. die alte Mappy-Version.
+
+@Simon: Wie schon gesagt, bau das mal in Objective C um, sollte ja kein gro&#223;es Problem sein denke ich mal. So viel Code ist nicht.
+
+Ich w&#252;rde die Source-Files vielleicht map2.h und map2.m nennen, weil es sich um die zweite Version einer Map-Klasse handelt. Die vorhandene map.h und map.m sollten wir parallel laufen lassen, bis das Mappy-Format l&#228;uft.
+
+Zum Mappy-Format m&#246;chte ich noch sagen:
+Ich glaube Mappy speichert auch die Tiles (also die Bitmaps der Tiles) im map-File drin! Das brauchen wir allerdings nicht. Das Map-File soll ja eigentlich nur immer eine ID (oder animations-Infos, etc.) enthalten. Also im grunde alles AUSSER die Tile-Bitmaps. Die laden wir ja extern, damit wir flexibel bleiben.
+
+Man m&#252;sste also evtl. ein kleines Tool schreiben ODER Mappy anpassen, das die Tiles nicht im map-file (fmt heisst die Endung das glaub ich) speichert, bzw. sie rausschmeisst. Zus&#228;tzlich geh&#246;rt dann nat&#252;rlich die Map2-Klasse angepasst.
+
+Soviel also zum Map-Format.
+
+Zu Mappy:
+L&#228;uft wie gesagt mit wine!
+
+Ich habe auch die &#228;ltere (DOS) Mappy-Version ausprobiert. Diese l&#228;sst sich mit der allegro-lib auch unter Linux kompilieren, aber die ist wie gesagt nicht so gut zu bedienen.
+
+Am liebsten w&#228;r es mir man k&#246;nnte Win-Mappy auf Linux portieren. Laut mappy-seite soll es auch eine Art winelib geben, mit der man Mappy kompilieren k&#246;nnte. (also winelib sind wohl einfach die windows.h header files, etc. damit man windows-programme kompilieren kann und dann ein entsprechendes runtime). Das w&#228;r toll, dann braucht man nicht immer wine.
+
+Kannst dir ja auch mal angucken...
+
+ciao
+chrizel
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000008.html">Status
+</A></li>
+	<LI>Next message: <A HREF="000007.html">Mappy
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#6">[ date ]</a>
+              <a href="thread.html#6">[ thread ]</a>
+              <a href="subject.html#6">[ subject ]</a>
+              <a href="author.html#6">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/btgame-devel-de">More information about the btgame-devel-de
+mailing list</a><br>
+</body></html>

@@ -1,0 +1,422 @@
+From chrizel at gmx.net  Fri Apr 16 22:18:09 2004
+From: chrizel at gmx.net (Christian Zeller)
+Date: Fri, 16 Apr 2004 22:18:09 +0200
+Subject: [Btgame-devel-de] 1. Mail
+Message-ID: <20040416221809.0947a7c0@mars.chrizel.com>
+
+Hallo,
+
+Erste Testmail zur btgame-devel-de Mailingliste. :o)
+
+ciao
+chrizel
+
+
+From chrizel at gmx.net  Fri Apr 16 22:23:06 2004
+From: chrizel at gmx.net (Christian Zeller)
+Date: Fri, 16 Apr 2004 22:23:06 +0200
+Subject: [Btgame-devel-de] 1. Mail
+In-Reply-To: <20040416221809.0947a7c0@mars.chrizel.com>
+References: <20040416221809.0947a7c0@mars.chrizel.com>
+Message-ID: <20040416222306.00dacb71@mars.chrizel.com>
+
+1. Antwort *hust*
+
+On Fri, 16 Apr 2004 22:18:09 +0200
+Christian Zeller <chrizel at gmx.net> wrote:
+
+> Hallo,
+> 
+> Erste Testmail zur btgame-devel-de Mailingliste. :o)
+> 
+> ciao
+> chrizel
+> _______________________________________________
+> Btgame-devel-de mailing list
+> Btgame-devel-de at lists.berlios.de
+> http://lists.berlios.de/mailman/listinfo/btgame-devel-de
+> 
+
+
+From the_neosam at fastmail.fm  Fri Apr 16 22:39:00 2004
+From: the_neosam at fastmail.fm (Simon Goller)
+Date: Fri, 16 Apr 2004 22:39:00 +0200
+Subject: Simon testet Mailinglist
+Message-ID: <1082147940.2192.184587195@webmail.messagingengine.com>
+
+Sers,
+
+von mir auch ein Test...
+
+MFG,
+Simon
+
+-- 
+http://www.fastmail.fm - Access your email from home and the web
+
+
+From chrizel at gmx.net  Fri Apr 16 22:47:08 2004
+From: chrizel at gmx.net (Christian Zeller)
+Date: Fri, 16 Apr 2004 22:47:08 +0200
+Subject: Simon testet Mailinglist
+In-Reply-To: <1082147940.2192.184587195@webmail.messagingengine.com>
+References: <1082147940.2192.184587195@webmail.messagingengine.com>
+Message-ID: <20040416224708.0f0f1f62@mars.chrizel.com>
+
+jaja, immer diese Mail-Tests...
+
+On Fri, 16 Apr 2004 22:39:00 +0200
+"Simon Goller" <the_neosam at fastmail.fm> wrote:
+
+> Sers,
+> 
+> von mir auch ein Test...
+> 
+> MFG,
+> Simon
+> 
+> -- 
+> http://www.fastmail.fm - Access your email from home and the web
+> _______________________________________________
+> btgame-devel-de mailing list
+> btgame-devel-de at lists.berlios.de
+> http://lists.berlios.de/mailman/listinfo/btgame-devel-de
+> 
+
+
+From the_neosam at fastmail.fm  Fri Apr 16 22:53:56 2004
+From: the_neosam at fastmail.fm (Simon Goller)
+Date: Fri, 16 Apr 2004 22:53:56 +0200
+Subject: Status
+Message-ID: <1082148836.3704.184587733@webmail.messagingengine.com>
+
+Also OK, hier definieren wir mal unseren derzeitigen Status... was haben
+wir?
+
+- Eine Mapklasse
+- Eine Playerklasse
+- Eine Audioklasse (sogar von mir ;) )
+- Eine Gameklasse.
+
+Zus?tzlich haben wir eine Console und haben Python Support.
+
+Hab ich was vergessen?
+
+-- 
+http://www.fastmail.fm - Faster than the air-speed velocity of an
+                          unladen european swallow
+
+
+From the_neosam at fastmail.fm  Fri Apr 16 23:10:25 2004
+From: the_neosam at fastmail.fm (Simon Goller)
+Date: Fri, 16 Apr 2004 23:10:25 +0200
+Subject: Simon testet Mailinglist
+In-Reply-To: <20040416224708.0f0f1f62@mars.chrizel.com>
+References: <1082147940.2192.184587195@webmail.messagingengine.com> <20040416224708.0f0f1f62@mars.chrizel.com>
+Message-ID: <1082149825.5256.184588585@webmail.messagingengine.com>
+
+jo, furchtbar... -.-
+
+On Fri, 16 Apr 2004 22:47:08 +0200, "Christian Zeller" <chrizel at gmx.net>
+said:
+> jaja, immer diese Mail-Tests...
+> 
+> On Fri, 16 Apr 2004 22:39:00 +0200
+> "Simon Goller" <the_neosam at fastmail.fm> wrote:
+> 
+> > Sers,
+> > 
+> > von mir auch ein Test...
+> > 
+> > MFG,
+> > Simon
+> > 
+> > -- 
+> > http://www.fastmail.fm - Access your email from home and the web
+> > _______________________________________________
+> > btgame-devel-de mailing list
+> > btgame-devel-de at lists.berlios.de
+> > http://lists.berlios.de/mailman/listinfo/btgame-devel-de
+> > 
+> _______________________________________________
+> btgame-devel-de mailing list
+> btgame-devel-de at lists.berlios.de
+> http://lists.berlios.de/mailman/listinfo/btgame-devel-de
+
+-- 
+http://www.fastmail.fm - Access your email from home and the web
+
+
+From chrizel at gmx.net  Fri Apr 16 23:31:08 2004
+From: chrizel at gmx.net (Christian Zeller)
+Date: Fri, 16 Apr 2004 23:31:08 +0200
+Subject: Mappy
+Message-ID: <20040416233108.7a67a376@mars.chrizel.com>
+
+Moin,
+
+Wir haben ja derzeit unsere eigene Map-Klasse mit ihrem eigenen File-Format.
+
+Als Alternative hab ich jetzt Mappy gefunden:
+http://www.geocities.com/SiliconValley/Vista/7336/robmpy.htm
+
+Map-Editor mit Sourcecode. Nachteil: Windows.
+
+L?uft aber mit Wine...
+
+Und daf?r gibts dann auch schon fertige Routinen und ne Klasse um das Fileformat in eigene Spiele zu bringen:
+http://membres.lycos.fr/edorul/SDLMappye.htm
+
+Das ist nicht Mappy, sondern das sind Routinen um das Mappy-Format zu laden und anzuzeigen!
+
+Ich weiss nur nicht ob die Routinen f?r den DOS (Allegro) Client sind, oder ob das schon den Windows-Mappy-Client unterst?tzt, es gibt n?mlich zwei Mappy Versionen! Vielleicht sind die Dateiformate kompatibel, das w?re nat?rlich ganz toll.
+
+Also hier die C++ Klasse f?r das Mappy-Format via SDL:
+http://membres.lycos.fr/edorul/SDLMappy-1.0.tar.gz
+
+Auf der Site gibts auch Mappy for Linux, aber diese Version basiert auf DOS Mappy, d.h. die alte Mappy-Version.
+
+@Simon: Wie schon gesagt, bau das mal in Objective C um, sollte ja kein gro?es Problem sein denke ich mal. So viel Code ist nicht.
+
+Ich w?rde die Source-Files vielleicht map2.h und map2.m nennen, weil es sich um die zweite Version einer Map-Klasse handelt. Die vorhandene map.h und map.m sollten wir parallel laufen lassen, bis das Mappy-Format l?uft.
+
+Zum Mappy-Format m?chte ich noch sagen:
+Ich glaube Mappy speichert auch die Tiles (also die Bitmaps der Tiles) im map-File drin! Das brauchen wir allerdings nicht. Das Map-File soll ja eigentlich nur immer eine ID (oder animations-Infos, etc.) enthalten. Also im grunde alles AUSSER die Tile-Bitmaps. Die laden wir ja extern, damit wir flexibel bleiben.
+
+Man m?sste also evtl. ein kleines Tool schreiben ODER Mappy anpassen, das die Tiles nicht im map-file (fmt heisst die Endung das glaub ich) speichert, bzw. sie rausschmeisst. Zus?tzlich geh?rt dann nat?rlich die Map2-Klasse angepasst.
+
+Soviel also zum Map-Format.
+
+Zu Mappy:
+L?uft wie gesagt mit wine!
+
+Ich habe auch die ?ltere (DOS) Mappy-Version ausprobiert. Diese l?sst sich mit der allegro-lib auch unter Linux kompilieren, aber die ist wie gesagt nicht so gut zu bedienen.
+
+Am liebsten w?r es mir man k?nnte Win-Mappy auf Linux portieren. Laut mappy-seite soll es auch eine Art winelib geben, mit der man Mappy kompilieren k?nnte. (also winelib sind wohl einfach die windows.h header files, etc. damit man windows-programme kompilieren kann und dann ein entsprechendes runtime). Das w?r toll, dann braucht man nicht immer wine.
+
+Kannst dir ja auch mal angucken...
+
+ciao
+chrizel
+
+
+From the_neosam at fastmail.fm  Fri Apr 16 23:38:57 2004
+From: the_neosam at fastmail.fm (Simon Goller)
+Date: Fri, 16 Apr 2004 23:38:57 +0200
+Subject: Mappy
+In-Reply-To: <20040416233108.7a67a376@mars.chrizel.com>
+References: <20040416233108.7a67a376@mars.chrizel.com>
+Message-ID: <1082151537.9139.184589691@webmail.messagingengine.com>
+
+> @Simon: Wie schon gesagt, bau das mal in Objective C um, sollte ja kein
+> gro?es Problem sein denke ich mal. So viel Code ist nicht.
+ich kann alles! ;)
+
+werd mal wine und winelib installieren um Mappy compilieren zu k?nnen.
+
+MFG,
+Simon
+
+
+On Fri, 16 Apr 2004 23:31:08 +0200, "Christian Zeller" <chrizel at gmx.net>
+said:
+> Moin,
+> 
+> Wir haben ja derzeit unsere eigene Map-Klasse mit ihrem eigenen
+> File-Format.
+> 
+> Als Alternative hab ich jetzt Mappy gefunden:
+> http://www.geocities.com/SiliconValley/Vista/7336/robmpy.htm
+> 
+> Map-Editor mit Sourcecode. Nachteil: Windows.
+> 
+> L?uft aber mit Wine...
+> 
+> Und daf?r gibts dann auch schon fertige Routinen und ne Klasse um das
+> Fileformat in eigene Spiele zu bringen:
+> http://membres.lycos.fr/edorul/SDLMappye.htm
+> 
+> Das ist nicht Mappy, sondern das sind Routinen um das Mappy-Format zu
+> laden und anzuzeigen!
+> 
+> Ich weiss nur nicht ob die Routinen f?r den DOS (Allegro) Client sind,
+> oder ob das schon den Windows-Mappy-Client unterst?tzt, es gibt n?mlich
+> zwei Mappy Versionen! Vielleicht sind die Dateiformate kompatibel, das
+> w?re nat?rlich ganz toll.
+> 
+> Also hier die C++ Klasse f?r das Mappy-Format via SDL:
+> http://membres.lycos.fr/edorul/SDLMappy-1.0.tar.gz
+> 
+> Auf der Site gibts auch Mappy for Linux, aber diese Version basiert auf
+> DOS Mappy, d.h. die alte Mappy-Version.
+> 
+> @Simon: Wie schon gesagt, bau das mal in Objective C um, sollte ja kein
+> gro?es Problem sein denke ich mal. So viel Code ist nicht.
+> 
+> Ich w?rde die Source-Files vielleicht map2.h und map2.m nennen, weil es
+> sich um die zweite Version einer Map-Klasse handelt. Die vorhandene map.h
+> und map.m sollten wir parallel laufen lassen, bis das Mappy-Format l?uft.
+> 
+> Zum Mappy-Format m?chte ich noch sagen:
+> Ich glaube Mappy speichert auch die Tiles (also die Bitmaps der Tiles) im
+> map-File drin! Das brauchen wir allerdings nicht. Das Map-File soll ja
+> eigentlich nur immer eine ID (oder animations-Infos, etc.) enthalten.
+> Also im grunde alles AUSSER die Tile-Bitmaps. Die laden wir ja extern,
+> damit wir flexibel bleiben.
+> 
+> Man m?sste also evtl. ein kleines Tool schreiben ODER Mappy anpassen, das
+> die Tiles nicht im map-file (fmt heisst die Endung das glaub ich)
+> speichert, bzw. sie rausschmeisst. Zus?tzlich geh?rt dann nat?rlich die
+> Map2-Klasse angepasst.
+> 
+> Soviel also zum Map-Format.
+> 
+> Zu Mappy:
+> L?uft wie gesagt mit wine!
+> 
+> Ich habe auch die ?ltere (DOS) Mappy-Version ausprobiert. Diese l?sst
+> sich mit der allegro-lib auch unter Linux kompilieren, aber die ist wie
+> gesagt nicht so gut zu bedienen.
+> 
+> Am liebsten w?r es mir man k?nnte Win-Mappy auf Linux portieren. Laut
+> mappy-seite soll es auch eine Art winelib geben, mit der man Mappy
+> kompilieren k?nnte. (also winelib sind wohl einfach die windows.h header
+> files, etc. damit man windows-programme kompilieren kann und dann ein
+> entsprechendes runtime). Das w?r toll, dann braucht man nicht immer wine.
+> 
+> Kannst dir ja auch mal angucken...
+> 
+> ciao
+> chrizel
+> _______________________________________________
+> btgame-devel-de mailing list
+> btgame-devel-de at lists.berlios.de
+> http://lists.berlios.de/mailman/listinfo/btgame-devel-de
+
+-- 
+http://www.fastmail.fm - The professional email service
+
+
+From chrizel at gmx.net  Sat Apr 17 00:00:46 2004
+From: chrizel at gmx.net (Christian Zeller)
+Date: Sat, 17 Apr 2004 00:00:46 +0200
+Subject: Status
+In-Reply-To: <1082148836.3704.184587733@webmail.messagingengine.com>
+References: <1082148836.3704.184587733@webmail.messagingengine.com>
+Message-ID: <20040417000046.22ffefda@mars.chrizel.com>
+
+> - Eine Mapklasse
+> - Eine Playerklasse
+> - Eine Audioklasse (sogar von mir ;) )
+> - Eine Gameklasse.
+> 
+> Zus?tzlich haben wir eine Console und haben Python Support.
+>
+> Hab ich was vergessen?
+Ja. Es ist jetzt nicht mehr alles in der Player-Klasse. Grunds?tzlich haben wir folgenden Aufbau:
+
+         Object
+           ^
+           |
+         Sprite
+           ^
+           |
+        Character
+           ^
+           |
+         Player
+
+Sprite stellt also - wie der Name schon sagt - ein Sprite dar. Davon abgeleitet ist Character, welche Grundlegende Eigenschaften eines Characters enth?llt. Also eine Direction (Norden, S?den, Westen, Osten), und Eigenschaften f?r Animationen.
+
+Ich habe vorgehabt von Character sp?ter die Klassen Player, NPC und Enemy abzuleiten.
+
+Also so:
+
+             Character
+            /    |    \
+         NPC  Player  Enemy
+
+Player gibt es schon, und das liest eben Tastatureingaben ein, etc.
+
+NPC k?nnte man auch anders benennen. (weil ein Enemy ist ja eigentlich auch ein NPC) NPC sollen sp?ter Stadtbewohner, etc. darstellen, mit denen man Reden kann. (also haben die wohl Eigenschaften w?rs reden, und die entsprechende Logik drin). 
+
+Enemy is f?r Gegner, also haben die wohl Eigenschaften wie St?rke, Lebenskraft, Defence, etc. Im Grunde das selbe wie Player, vielleicht sollten wir hier das ganze noch besser trennen oder in Character verlagern. Muss man noch aust?fteln.
+
+Bei NPC und Enemy w?rde ich sp?ter also mit Python dann ansetzen, denn hier k?nnten wir Scripting-F?higkeit ins Spiel bringen!
+
+Mit NPCs soll man ja reden k?nnen. Das w?rde ich alles mit Python machen. Enemy-Logik vielleicht auch, aber da m?ssen wir halt aust?ftel wie wir das l?sen. Vielleicht l?sen wir das mit KI wirklich ?ber Python. Wir k?nnten Funktionen zur verf?gung stellen, womit man Objective-C Enemy-Objekte ?ber Python ver?ndern kann, d.h. spezielle Parameter setzen kann, Pfade, Reaktionen, Bedingungen, etc. So k?nnten wir die KI in Python abbilden, am anfang laden und der Rest l?uft im Space des Programms.
+
+mfg
+chrizel
+
+
+From the_neosam at fastmail.fm  Sat Apr 17 00:29:43 2004
+From: the_neosam at fastmail.fm (Simon Goller)
+Date: Sat, 17 Apr 2004 00:29:43 +0200
+Subject: Status
+Message-ID: <1082154583.15062.184591521@webmail.messagingengine.com>
+
+> 
+>          Object
+>            ^
+>            |
+>          Sprite
+>            ^
+>            |
+>         Character
+>            ^
+>            |
+>          Player
+> 
+> 
+>              Character
+>             /    |    \
+>          NPC  Player  Enemy
+
+Der Aufbau rulet!
+
+> Bei NPC und Enemy w?rde ich sp?ter also mit Python dann ansetzen, denn
+> hier k?nnten wir Scripting-F?higkeit ins Spiel bringen!
+
+jo, wird sich zeigen, wie schnell es l?uft...
+
+-- 
+http://www.fastmail.fm - Choose from over 50 domains or use your own
+
+-- 
+http://www.fastmail.fm - Accessible with your email software
+                          or over the web
+
+
+From chrizel at gmx.net  Wed Apr 21 17:45:14 2004
+From: chrizel at gmx.net (Christian Zeller)
+Date: Wed, 21 Apr 2004 17:45:14 +0200
+Subject: Objective C
+Message-ID: <20040421174514.07dec483@mars.chrizel.com>
+
+hi
+
+Ich hab hier mal einen interessanten Beitrag von Kristian K?hntopp ausm heise.de Forum gefunden, und das sollten wir hier nat?rlich ver?ffentlichen, weil es schon recht interessant ist.
+
+Hier:
+http://chrizel.onport.net/objc.txt
+
+Grunds?tzlich wird darin sch?n erkl?rt dass Objective C im Gegensatz zu C++ sehr dynamisch ist. Und dieses Feature werden wir nutzen!
+
+Mit Objective C haben wir quasi die M?glichkeit Scripting-F?higkeit mit Python KOSTENLOS und ohne Aufwand in unsere Anwendung zu integrieren! Das ist ein enormer Vorteil, den man nicht unbeachtet sein lassen sollte.
+
+Zudem m?chte ich damit anstossen dass es evtl. sinnvoll w?re eine kleine Klassenbibliothek f?r Objective C zu bauen, damit wir grundlegende Dinge wie File-Handling, dynamische Arrays, vielleicht auch Strings in eigene Klassen gekapselt haben.
+
+D.h. vielleicht eine kleine Foundation-Library oberhalb des bt-Trees entwickeln mit der man solche Grundlegenden Dinge realisieren kann. Ich m?chte dabei weniger auf GNUstep aufsetzen, weil:
+a) ich unabh?ngig bleiben will.
+b) GNUstep wahrscheinlich nicht auf jedem System l?uft (Windows?)
+c) Vielleicht k?nnten wir damit eine Alternative zum GNUstep-System entwickeln. (Es hat vieles was wir nicht ben?tigen -> Services, Toolkit, etc.)
+d) Wir k?nnten auf die vorhandenen ObjC Klassen aufbauen/abschreiben (z.b. gibts schon ByteArray, etc.)
+e) So Foundation Classes w?rd ich schonmal gern bauen... *juck* ;-) 
+
+Soviel dazu. Mehr Zeit hab ich wahrscheinlich nach meinen Pr?fungen.
+
+ciao
+chrizel
+
+

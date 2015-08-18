@@ -1,0 +1,148 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> Mappy
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/btgame-devel-de/2004-April/index.html" >
+   <LINK REL="made" HREF="mailto:btgame-devel-de%40lists.berlios.de?Subject=Re%3A%20Mappy&In-Reply-To=%3C1082151537.9139.184589691%40webmail.messagingengine.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000006.html">
+   <LINK REL="Next"  HREF="000009.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>Mappy</H1>
+    <B>Simon Goller</B> 
+    <A HREF="mailto:btgame-devel-de%40lists.berlios.de?Subject=Re%3A%20Mappy&In-Reply-To=%3C1082151537.9139.184589691%40webmail.messagingengine.com%3E"
+       TITLE="Mappy">the_neosam at fastmail.fm
+       </A><BR>
+    <I>Fri Apr 16 23:38:57 CEST 2004</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000006.html">Mappy
+</A></li>
+        <LI>Next message: <A HREF="000009.html">Status
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#7">[ date ]</a>
+              <a href="thread.html#7">[ thread ]</a>
+              <a href="subject.html#7">[ subject ]</a>
+              <a href="author.html#7">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>&gt;<i> @Simon: Wie schon gesagt, bau das mal in Objective C um, sollte ja kein
+</I>&gt;<i> gro&#223;es Problem sein denke ich mal. So viel Code ist nicht.
+</I>ich kann alles! ;)
+
+werd mal wine und winelib installieren um Mappy compilieren zu k&#246;nnen.
+
+MFG,
+Simon
+
+
+On Fri, 16 Apr 2004 23:31:08 +0200, &quot;Christian Zeller&quot; &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/btgame-devel-de">chrizel at gmx.net</A>&gt;
+said:
+&gt;<i> Moin,
+</I>&gt;<i> 
+</I>&gt;<i> Wir haben ja derzeit unsere eigene Map-Klasse mit ihrem eigenen
+</I>&gt;<i> File-Format.
+</I>&gt;<i> 
+</I>&gt;<i> Als Alternative hab ich jetzt Mappy gefunden:
+</I>&gt;<i> <A HREF="http://www.geocities.com/SiliconValley/Vista/7336/robmpy.htm">http://www.geocities.com/SiliconValley/Vista/7336/robmpy.htm</A>
+</I>&gt;<i> 
+</I>&gt;<i> Map-Editor mit Sourcecode. Nachteil: Windows.
+</I>&gt;<i> 
+</I>&gt;<i> L&#228;uft aber mit Wine...
+</I>&gt;<i> 
+</I>&gt;<i> Und daf&#252;r gibts dann auch schon fertige Routinen und ne Klasse um das
+</I>&gt;<i> Fileformat in eigene Spiele zu bringen:
+</I>&gt;<i> <A HREF="http://membres.lycos.fr/edorul/SDLMappye.htm">http://membres.lycos.fr/edorul/SDLMappye.htm</A>
+</I>&gt;<i> 
+</I>&gt;<i> Das ist nicht Mappy, sondern das sind Routinen um das Mappy-Format zu
+</I>&gt;<i> laden und anzuzeigen!
+</I>&gt;<i> 
+</I>&gt;<i> Ich weiss nur nicht ob die Routinen f&#252;r den DOS (Allegro) Client sind,
+</I>&gt;<i> oder ob das schon den Windows-Mappy-Client unterst&#252;tzt, es gibt n&#228;mlich
+</I>&gt;<i> zwei Mappy Versionen! Vielleicht sind die Dateiformate kompatibel, das
+</I>&gt;<i> w&#228;re nat&#252;rlich ganz toll.
+</I>&gt;<i> 
+</I>&gt;<i> Also hier die C++ Klasse f&#252;r das Mappy-Format via SDL:
+</I>&gt;<i> <A HREF="http://membres.lycos.fr/edorul/SDLMappy-1.0.tar.gz">http://membres.lycos.fr/edorul/SDLMappy-1.0.tar.gz</A>
+</I>&gt;<i> 
+</I>&gt;<i> Auf der Site gibts auch Mappy for Linux, aber diese Version basiert auf
+</I>&gt;<i> DOS Mappy, d.h. die alte Mappy-Version.
+</I>&gt;<i> 
+</I>&gt;<i> @Simon: Wie schon gesagt, bau das mal in Objective C um, sollte ja kein
+</I>&gt;<i> gro&#223;es Problem sein denke ich mal. So viel Code ist nicht.
+</I>&gt;<i> 
+</I>&gt;<i> Ich w&#252;rde die Source-Files vielleicht map2.h und map2.m nennen, weil es
+</I>&gt;<i> sich um die zweite Version einer Map-Klasse handelt. Die vorhandene map.h
+</I>&gt;<i> und map.m sollten wir parallel laufen lassen, bis das Mappy-Format l&#228;uft.
+</I>&gt;<i> 
+</I>&gt;<i> Zum Mappy-Format m&#246;chte ich noch sagen:
+</I>&gt;<i> Ich glaube Mappy speichert auch die Tiles (also die Bitmaps der Tiles) im
+</I>&gt;<i> map-File drin! Das brauchen wir allerdings nicht. Das Map-File soll ja
+</I>&gt;<i> eigentlich nur immer eine ID (oder animations-Infos, etc.) enthalten.
+</I>&gt;<i> Also im grunde alles AUSSER die Tile-Bitmaps. Die laden wir ja extern,
+</I>&gt;<i> damit wir flexibel bleiben.
+</I>&gt;<i> 
+</I>&gt;<i> Man m&#252;sste also evtl. ein kleines Tool schreiben ODER Mappy anpassen, das
+</I>&gt;<i> die Tiles nicht im map-file (fmt heisst die Endung das glaub ich)
+</I>&gt;<i> speichert, bzw. sie rausschmeisst. Zus&#228;tzlich geh&#246;rt dann nat&#252;rlich die
+</I>&gt;<i> Map2-Klasse angepasst.
+</I>&gt;<i> 
+</I>&gt;<i> Soviel also zum Map-Format.
+</I>&gt;<i> 
+</I>&gt;<i> Zu Mappy:
+</I>&gt;<i> L&#228;uft wie gesagt mit wine!
+</I>&gt;<i> 
+</I>&gt;<i> Ich habe auch die &#228;ltere (DOS) Mappy-Version ausprobiert. Diese l&#228;sst
+</I>&gt;<i> sich mit der allegro-lib auch unter Linux kompilieren, aber die ist wie
+</I>&gt;<i> gesagt nicht so gut zu bedienen.
+</I>&gt;<i> 
+</I>&gt;<i> Am liebsten w&#228;r es mir man k&#246;nnte Win-Mappy auf Linux portieren. Laut
+</I>&gt;<i> mappy-seite soll es auch eine Art winelib geben, mit der man Mappy
+</I>&gt;<i> kompilieren k&#246;nnte. (also winelib sind wohl einfach die windows.h header
+</I>&gt;<i> files, etc. damit man windows-programme kompilieren kann und dann ein
+</I>&gt;<i> entsprechendes runtime). Das w&#228;r toll, dann braucht man nicht immer wine.
+</I>&gt;<i> 
+</I>&gt;<i> Kannst dir ja auch mal angucken...
+</I>&gt;<i> 
+</I>&gt;<i> ciao
+</I>&gt;<i> chrizel
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> btgame-devel-de mailing list
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/btgame-devel-de">btgame-devel-de at lists.berlios.de</A>
+</I>&gt;<i> <A HREF="http://lists.berlios.de/mailman/listinfo/btgame-devel-de">http://lists.berlios.de/mailman/listinfo/btgame-devel-de</A>
+</I>
+-- 
+<A HREF="http://www.fastmail.fm">http://www.fastmail.fm</A> - The professional email service
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000006.html">Mappy
+</A></li>
+	<LI>Next message: <A HREF="000009.html">Status
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#7">[ date ]</a>
+              <a href="thread.html#7">[ thread ]</a>
+              <a href="subject.html#7">[ subject ]</a>
+              <a href="author.html#7">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/btgame-devel-de">More information about the btgame-devel-de
+mailing list</a><br>
+</body></html>

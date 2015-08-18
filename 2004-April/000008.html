@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> Status
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/btgame-devel-de/2004-April/index.html" >
+   <LINK REL="made" HREF="mailto:btgame-devel-de%40lists.berlios.de?Subject=Re%3A%20Status&In-Reply-To=%3C20040417000046.22ffefda%40mars.chrizel.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000004.html">
+   <LINK REL="Next"  HREF="000006.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>Status</H1>
+    <B>Christian Zeller</B> 
+    <A HREF="mailto:btgame-devel-de%40lists.berlios.de?Subject=Re%3A%20Status&In-Reply-To=%3C20040417000046.22ffefda%40mars.chrizel.com%3E"
+       TITLE="Status">chrizel at gmx.net
+       </A><BR>
+    <I>Sat Apr 17 00:00:46 CEST 2004</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000004.html">Status
+</A></li>
+        <LI>Next message: <A HREF="000006.html">Mappy
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#8">[ date ]</a>
+              <a href="thread.html#8">[ thread ]</a>
+              <a href="subject.html#8">[ subject ]</a>
+              <a href="author.html#8">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>&gt;<i> - Eine Mapklasse
+</I>&gt;<i> - Eine Playerklasse
+</I>&gt;<i> - Eine Audioklasse (sogar von mir ;) )
+</I>&gt;<i> - Eine Gameklasse.
+</I>&gt;<i> 
+</I>&gt;<i> Zus&#228;tzlich haben wir eine Console und haben Python Support.
+</I>&gt;<i>
+</I>&gt;<i> Hab ich was vergessen?
+</I>Ja. Es ist jetzt nicht mehr alles in der Player-Klasse. Grunds&#228;tzlich haben wir folgenden Aufbau:
+
+         Object
+           ^
+           |
+         Sprite
+           ^
+           |
+        Character
+           ^
+           |
+         Player
+
+Sprite stellt also - wie der Name schon sagt - ein Sprite dar. Davon abgeleitet ist Character, welche Grundlegende Eigenschaften eines Characters enth&#228;llt. Also eine Direction (Norden, S&#252;den, Westen, Osten), und Eigenschaften f&#252;r Animationen.
+
+Ich habe vorgehabt von Character sp&#228;ter die Klassen Player, NPC und Enemy abzuleiten.
+
+Also so:
+
+             Character
+            /    |    \
+         NPC  Player  Enemy
+
+Player gibt es schon, und das liest eben Tastatureingaben ein, etc.
+
+NPC k&#246;nnte man auch anders benennen. (weil ein Enemy ist ja eigentlich auch ein NPC) NPC sollen sp&#228;ter Stadtbewohner, etc. darstellen, mit denen man Reden kann. (also haben die wohl Eigenschaften w&#252;rs reden, und die entsprechende Logik drin). 
+
+Enemy is f&#252;r Gegner, also haben die wohl Eigenschaften wie St&#228;rke, Lebenskraft, Defence, etc. Im Grunde das selbe wie Player, vielleicht sollten wir hier das ganze noch besser trennen oder in Character verlagern. Muss man noch aust&#252;fteln.
+
+Bei NPC und Enemy w&#252;rde ich sp&#228;ter also mit Python dann ansetzen, denn hier k&#246;nnten wir Scripting-F&#228;higkeit ins Spiel bringen!
+
+Mit NPCs soll man ja reden k&#246;nnen. Das w&#252;rde ich alles mit Python machen. Enemy-Logik vielleicht auch, aber da m&#252;ssen wir halt aust&#252;ftel wie wir das l&#246;sen. Vielleicht l&#246;sen wir das mit KI wirklich &#252;ber Python. Wir k&#246;nnten Funktionen zur verf&#252;gung stellen, womit man Objective-C Enemy-Objekte &#252;ber Python ver&#228;ndern kann, d.h. spezielle Parameter setzen kann, Pfade, Reaktionen, Bedingungen, etc. So k&#246;nnten wir die KI in Python abbilden, am anfang laden und der Rest l&#228;uft im Space des Programms.
+
+mfg
+chrizel
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000004.html">Status
+</A></li>
+	<LI>Next message: <A HREF="000006.html">Mappy
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#8">[ date ]</a>
+              <a href="thread.html#8">[ thread ]</a>
+              <a href="subject.html#8">[ subject ]</a>
+              <a href="author.html#8">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/btgame-devel-de">More information about the btgame-devel-de
+mailing list</a><br>
+</body></html>
